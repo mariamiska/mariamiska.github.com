@@ -79,7 +79,6 @@ p {
     height: 80vh;
     background-color: white;
     border-radius: 4px;
-    position: relative;
     padding: 1em;
     overflow-y: scroll;
     box-sizing: border-box;
