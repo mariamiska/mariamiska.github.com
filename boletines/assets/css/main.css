@@ -139,19 +139,33 @@ th {
     color: gold;
 }
 
-@media (min-width:900px) {
-    .content {
-        padding: 1.8em;
-        overflow: hidden;
+@media (max-width: 600px){
+    th{display: none;}
+    td{
+      width: 100%;
+      display: block;
     }
-    th {
-        display: table-cell;
+    td:nth-of-type(1){
+      font-size: 1.5em;
+      font-weight: bold;
+      color:#642B73;
     }
-    td {
-        width: auto;
-        display: table-cell;
+  }
+  
+  @media (min-width: 960px){
+    .content{
+      padding:1.8em;
+      font-size: 1rem;
     }
-    td:nth-of-type(1) {
-        font-size: 1em;
+    .title{
+      margin: 1em 0;
     }
-}
+  
+  }
+  
+  @media (min-height: 550px){
+    .content{
+      height: 500px;
+    }
+  }
+  
