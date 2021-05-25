@@ -81,6 +81,7 @@ p {
     border-radius: 4px;
     position: relative;
     padding: 1em;
+        overflow-y: hidden;
 }
 
 td {
