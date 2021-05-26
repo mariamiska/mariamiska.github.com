@@ -20,9 +20,9 @@ links.forEach(function (links) {
     content.classList.add("animate__animated");
     content.classList.add("animate__fadeOutUp");
 
-    setTimeout(function () {
-      location.href = "/boletines/index.html";
-    }, 1000);
+    setTimeout(() => {
+      location.href = this.href;
+    }, 600);
 
     return false;
   });
