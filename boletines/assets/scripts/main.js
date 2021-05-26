@@ -21,7 +21,7 @@ links.forEach(function (links) {
     content.classList.add("animate__fadeOutUp");
 
     setTimeout(function () {
-      location.href = "/boletines";
+      location.href = "/boletines/index.html";
     }, 600);
 
     return false;
