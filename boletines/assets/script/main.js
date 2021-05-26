@@ -22,7 +22,7 @@ links.forEach(function (links) {
 
     setTimeout(function () {
       location.href = "/boletines/index.html";
-    }, 600);
+    }, 1000);
 
     return false;
   });
